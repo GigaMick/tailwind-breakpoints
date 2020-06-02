@@ -3,12 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <title></title>
-    <meta name="description" content="">
+    <title>Tailwind Breakpoints</title>
+    <meta name="description" content="Always know breakpoint you're working in when using Tailwind CSS">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="apple-touch-icon" href="icon.png">
     <!-- Place favicon.ico in the root directory -->
 
 
@@ -27,22 +25,27 @@
     <span class="hidden xl:inline-block rounded px-1 bg-yellow-400">XL</span>
 </div>
 <div class="hero py-12 bg-gradient">
-    <div class="container mx-auto py-10 text-center  font-bold text-white">
+    <div class="container mx-auto py-5 text-center  font-bold text-white">
         <h1 class="c-h1">Tailwind Breakpoints</h1>
         <p class="text-xl font-hairline">A tiny little thing that helps you keep track of your Tailwind break
             points.</p>
+        <div class="mt-10">
+            <a href="https://github.com/GigaMick/bootstrap-tailwind-breakpoints" target="_blank"
+               class="border border-gray-200 text-gray-200 bg-gray-400 bg-opacity-25 rounded p-4 mt-6">View on
+                GitHub</a>
+        </div>
     </div>
 </div>
 
-<h3 class="c-h3 text-center font-black mt-10">Always know your breaking point</h3>
+<h3 class="c-h3 text-center font-black mt-6">Always know your breaking point</h3>
 <h5 class="c-h6 mt-2 text-center">Supremely simple & really quite useful. Drag your browser in and out to see it
     working.</h5>
 <p class="text-center mt-4 text-xl">Just copy the markup below into the body of any pages you’re working on and you’ll
     always know what
     break point you’re in.</p>
 
-<div class="flex justify-center py-5">
-    <div class="container mx-auto flex justify-center">
+<div class="flex justify-center py-4">
+    <div class="container mx-auto flex justify-center flex-col">
     <pre class="max-w-full overflow-scroll text-gray-800 px-5 py-4 inline-block mx-auto bg-gray-200 rounded border-solid border-gray-400 border text-xs"><code>&lt;div class="fixed z-50 text-xs font-bold text-black p-2">
     &lt;span class="sm:hidden md:hidden rounded px-1 bg-yellow-400 p-1">XS&lt;/span>
     &lt;span class="hidden sm:inline-block md:hidden rounded px-1 bg-yellow-400">SM&lt;/span>
@@ -50,11 +53,54 @@
     &lt;span class="hidden lg:inline-block xl:hidden rounded px-1 bg-yellow-400">LG&lt;/span>
     &lt;span class="hidden xl:inline-block rounded px-1 bg-yellow-400">XL&lt;/span>
 &lt;/div></code></pre>
+        <div class="mt-3">
+            <p class="text-center c-link"><a href="https://bootstrapbreakpoints/?ref=twbp">Prefer Bootstrap?</a></p>
+        </div>
     </div>
 </div>
-<div class="flex flex-col justify-center align-middle text-center py-5">
-    <p class="mb-4 mt-0 pt-0">If you found this helpful, I appreciate coffee 🤓</p>
-    <style>.bmc-button img{height: 34px !important;width: 35px !important;margin-bottom: 1px !important;box-shadow: none !important;border: none !important;vertical-align: middle !important;}.bmc-button{padding: 7px 15px 7px 10px !important;line-height: 35px !important;height:51px !important;text-decoration: none !important;display:inline-flex !important;color:#ffffff !important;background-color:#000000 !important;border-radius: 5px !important;border: 1px solid transparent !important;padding: 7px 15px 7px 10px !important;font-size: 28px !important;letter-spacing:0.6px !important;box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;margin: 0 auto !important;font-family:'Cookie', cursive !important;-webkit-box-sizing: border-box !important;box-sizing: border-box !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;text-decoration: none !important;box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;opacity: 0.85 !important;color:#ffffff !important;}</style><link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/ProductGuy"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee"><span style="margin-left:5px;font-size:28px !important;">Buy me a coffee</span></a>
+<div class="flex flex-col justify-center align-middle text-center py-0">
+    <p class="mb-2 mt-0 pt-0">If you found this helpful, I appreciate coffee 🤓</p>
+    <style>.bmc-button img {
+        height: 34px !important;
+        width: 35px !important;
+        margin-bottom: 1px !important;
+        box-shadow: none !important;
+        border: none !important;
+        vertical-align: middle !important;
+    }
+
+    .bmc-button {
+        padding: 7px 15px 7px 10px !important;
+        line-height: 35px !important;
+        height: 51px !important;
+        text-decoration: none !important;
+        display: inline-flex !important;
+        color: #ffffff !important;
+        background-color: #000000 !important;
+        border-radius: 5px !important;
+        border: 1px solid transparent !important;
+        padding: 7px 15px 7px 10px !important;
+        font-size: 28px !important;
+        letter-spacing: 0.6px !important;
+        box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;
+        -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+        margin: 0 auto !important;
+        font-family: 'Cookie', cursive !important;
+        -webkit-box-sizing: border-box !important;
+        box-sizing: border-box !important;
+    }
+
+    .bmc-button:hover, .bmc-button:active, .bmc-button:focus {
+        -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+        text-decoration: none !important;
+        box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+        opacity: 0.85 !important;
+        color: #ffffff !important;
+    }</style>
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+    <a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/ProductGuy"><img
+            src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee"><span
+            style="margin-left:5px;font-size:28px !important;">Buy me a coffee</span></a>
 
 </div>
 
