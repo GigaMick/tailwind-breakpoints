@@ -13,6 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,200;0,600;1,900&display=swap"
           rel="stylesheet">
     <script async defer data-domain="tailwindbreakpoints.com" src="https://plausible.io/js/plausible.js"></script>
+    <script>window.plausible = window.plausible || function () {
+        (window.plausible.q = window.plausible.q || []).push(arguments)
+    }</script>
     <style>.bmc-button img {
         height: 34px !important;
         width: 35px !important;
@@ -78,7 +81,7 @@
         always know what
         break point you’re in.</p>
 </div>
-<div class="flex justify-center py-4">
+<div class="flex justify-center py-4"  onclick="plausible('html_copy')">
     <div class="container mx-auto flex justify-center flex-col">
     <pre class="max-w-full overflow-scroll text-gray-800 px-5 py-4 inline-block mx-auto bg-gray-200 rounded border-solid border-gray-400 border text-xs"><code>&lt;div class="fixed z-50 text-xs font-bold text-black p-2">
     &lt;span class="sm:hidden rounded px-1 bg-yellow-400 p-1">XS&lt;/span>
@@ -90,7 +93,7 @@
     </div>
 </div>
 
-<div class="flex justify-center mt-6">
+<div class="flex justify-center mt-6"  onclick="plausible('html_copy')">
 <div class="container mx-auto flex justify-center flex-col">
     <p class="text-center mb-2">Or paste the CDN link into the <strong>&lt;body></strong> of your pages</p>
     <pre class="max-w-full overflow-scroll text-gray-800 px-5 py-4 inline-block mx-auto bg-gray-200 rounded border-solid border-gray-400 border text-xs"><code>&lt;script src="https://awesomecdn.netlify.app/tw.js"></script></code></pre></div>
